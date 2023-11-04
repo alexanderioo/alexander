@@ -2,12 +2,12 @@
     --first-color: #212121;
     --second-color: #9EAF7C;
     --third-color: #EAF3FD;
-    --fourth-color:rgba(68, 66, 55, 0.70);
+    --fourth-color:#F3F1EC;
 }
 @font-face {
-    font-family: "Inter;"; 
+    font-family: "Inter;" "Philosopher"; 
     src: url(fonts\Inter-Black.ttf) format("ttf");
-
+    src:url(fonts/Philosopher-Italic.ttf) format("ttf");
 }
 *{
     box-sizing: border-box;
@@ -46,13 +46,24 @@ border: 2rem;
 border-radius: 2rem;
 }
 .about-company_title{
-    font-size: 3rem;
+
+    font-size: 4rem;
+    line-height: 5rem;
     font-weight: 700;
+    font-family: 'Philosopher',;
+    font-style:italic;
+}
+.about-company_icon{
+border: 1rem;
+border-radius: 4rem;
+}
+.about-company, .about-article, .about-catalog{
+    background-color:var(--fourth-color);
 }
 .about-company > ul > li {
     text-align: center;
     font-size: 2rem;
-    margin: 2rem 0rem 4rem 0rem;
+    line-height: 4rem;
 }
 .about-article_title{
   
