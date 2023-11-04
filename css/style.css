@@ -1,223 +1,61 @@
-.header_logo_ {
-    width: 113px;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
+:root{
+    --first-color: #212121;
+    --second-color: #9EAF7C;
+    --third-color: #EAF3FD;
+    --fourth-color:rgba(68, 66, 55, 0.70);
 }
+@font-face {
+    font-family: "Inter;"; 
+    src: url(fonts\Inter-Black.ttf) format("ttf");
 
-.header_button {
-    width: 45px;
-    height: 45px;
-    padding: 16px;
 }
-
-.title_section {
-    width: 925px;
-    font-size: 34px;
-    font-style: normal;
-    font-weight: 300;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-.icon_section {
-    width: 34px;
-    height: 34px;
-    flex-shrink: 0;
+html {
+    font-size: 62.5%;
+  }  
+header,
+.start-page{
+    background-image: url("/img/background1.png");
 }
-
-.text_section {
-    width: 218px;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.title1_section {
-    width: 925px;
-    color: #4B4B4B;
-    font-size: 38px;
-    font-weight: 400;
-}
-
-.img1_section {
-    width: 300px;
-    height: 365px;
-    border-radius: 20px;
-    border: 5px solid #9EAF7C;
-}
-
-.img_section {
-    width: 273.039px;
-    height: 76.197px;
-    color: #9EAF7C;
+.start-page__text{
+    color:var(--third-color);
+    font-size: 3rem;
+    line-height: 4rem;
     text-align: center;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 0rem; 
 }
-
-.text1_section {
-    width: 134.05px;
-    height: 20.46px;
-    color: #000;
+.start-page > a {
+    display: block;
     text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    background-color: #9EAF7C;
+    border: 3rem;
+    border-radius: 1rem;
 }
+.start-page > ul > li{
+font-size: 2rem;
+line-height: 5rem
 
-.button {
-    width: 300px;
-    height: 58px;
-    border-radius: 10px;
-    background: #9EAF7C;
 }
-
-.subtitle_section {
-    width: 199px;
-    color: #4B4B4B;
-    font-size: 26px;
-    font-style: normal;
+.start-page_icon{
+background-color: #9EAF7C;
+border: 2rem;
+border-radius: 2rem;
+}
+.about-company_title{
+    font-size: 3rem;
     font-weight: 700;
 }
-
-.text2_section {
-    width: 229px;
-    color: #4B4B4B;
-    font-size: 16px;
-    font-weight: 400;
+.about-company > ul > li {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0rem 4rem 0rem;
 }
-
-.subtitle1_section {
-    width: 300px;
-    color: #4B4B4B;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
+.about-article_title{
+  
 }
-
-.img1_section {
-    width: 298.851px;
-    height: 254px;
-    border-radius: 20px;
-}
-
-.img2_section {
-    width: 139.464px;
-    height: 131.762px;
-    border-radius: 20px;
-
-}
-
-.title2_section {
-    width: 925px;
-    font-weight: 300;
-    font-size: 32px;
-}
-
-.text3_section {
-    width: 309px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 300;
-}
-
-.button_form {
-    display: flex;
-    width: 300px;
-    height: 48px;
-    padding: 0px 206px 0px 21px;
-}
-
-.text_form {
-    width: 301px;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.title3_section {
-    width: 337px;
-    color: #4B4B4B;
-    font-size: 38px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.icon1_section {
-    width: 102.894px;
-    height: 102.058px;
-}
-
-.subtitle2_section {
-    width: 323.74px;
-    height: 20.077px;
-    color: #4B4B4B;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.text4_section {
-    width: 259px;
-    height: 61px;
-    color: #4B4B4B;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.avatar_section {
-    width: 89px;
-    height: 89px;
-    border-radius: 89px;
-}
-
-.text5_section {
-    width: 387px;
-    color: #4B4B4B;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.text6_section {
-    width: 279px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.item_section {
-    width: 116px;
-    height: 24px;
-    color: #4B4B4B;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.img3_section {
-    width: 84.107px;
-    height: 84.107px;
-}
-
-.img4_section {
-    width: 742px;
-    height: 319px;
-}
-
-.footer {
-    width: 618px;
-    height: 513px;
-    flex-shrink: 0;
-    background: #9EAF7C;
-}
-
-.footer_text {
-    width: 297px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+.about-article > ul > li{
 }
