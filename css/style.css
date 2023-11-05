@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 :root {
     --first-color: #212121;
     --second-color: #9EAF7C;
     --third-color: #EAF3FD;
     --fourth-color: #F3F1EC;
-    --fifth-color:#C3BEBE;
+    --fifth-color: #C3BEBE;
 }
-
 @font-face {
     font-family: "Inter;" "Philosopher";
-    src: url(fonts\Inter-Black.ttf) format("ttf");
+    src: url(fonts/Inter-Black.ttf) format("ttf");
     src: url(fonts/Philosopher-Italic.ttf) format("ttf");
+    
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,6 +21,9 @@
 
 html {
     font-size: 62.5%;
+}
+body{
+max-width: 390px;
 }
 
 .about-company,
@@ -32,15 +36,20 @@ html {
     background-color: var(--fourth-color);
 }
 
-.start-page, .header {
-    background-image: url("/img/background1.png");
+.start-page,
+.header {
+    background-image:url(../img/background1.png)
 }
-.order{
-    background-image: url("/img/background2.png");
-    background-size: cover;
+.header_button{
+    background: none;
+    border: none;
 }
 
-.start-page__text {
+.order {
+    background-image:url(../img/background2.png)
+}
+
+.start-page_text {
     color: var(--third-color);
     font-size: 3rem;
     line-height: 4rem;
@@ -48,17 +57,21 @@ html {
     font-weight: 0rem;
 }
 
-.start-page>a {
-    display: block;
-    text-align: center;
-    background-color: #9EAF7C;
-    border: 3rem;
-    border-radius: 1rem;
+.link { 
+    font-family: "Inter";
+   background-color: #9EAF7C;
+   padding: 24px 75px;
+   border-radius: 10px;
+   text-decoration: none;
+   color:var(--third-color);
+   font-size: 1.5rem;
 }
 
-.start-page>ul>li {
+.start-page_desc {
+    font-family: "Inter";
+font-weight: 300;
     font-size: 2rem;
-    line-height: 5rem
+    line-height: 5rem;
 }
 
 .start-page_icon {
@@ -72,7 +85,7 @@ html {
     font-size: 4rem;
     line-height: 5rem;
     font-weight: 700;
-    font-family: 'Philosopher', ;
+    font-family: 'Philosopher';
     font-style: italic;
 }
 
@@ -81,117 +94,135 @@ html {
     border-radius: 4rem;
 }
 
-.about-company_subtitle{
+.about-company_subtitle {
     color: var(--second-color);
-text-align: center;
-font-family: "Philosopher";
-font-size: 70px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: "Philosopher";
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
+
 .about-company>ul>li {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 3rem;
     line-height: 4rem;
 }
-.about-company > a{
+
+.about-company>a {
     display: block;
     text-align: center;
     background-color: #9EAF7C;
 }
+
 .about-article_title {
     font-family: "Philosopher";
     font-size: 4rem;
 }
-.about-article_subtitle{
+
+.about-article_subtitle {
     font-family: "Philosopher";
     font-size: 3rem;
     line-height: 3rem;
 }
-.about-article_text{
-    font-family:"Inter";
+
+.about-article_text {
+    font-family: "Inter";
     font-size: 2rem;
 }
-.about-article > ul > li{
-    line-height: 2rem;
-    border: 4rem;
-    border-radius: 6rem;
-    background-color: var(--fifth-color)
+
+.about-article_container {
+    border-radius: 20px;
+    border: 1px solid #C3BEBE;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(223, 224, 226, 0.20) 0.01%, rgba(143, 145, 149, 0.20) 100%);
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(10.5px);
 }
-.about-catalog__title{
+
+.about-catalog__title {
     font-family: "Philosopher";
     font-size: 3rem;
 }
-.about-catalog__icon{
+
+.about-catalog__icon {
     border-radius: 2rem;
 }
-.about-catalog > a{
+
+.about-catalog>a {
     display: block;
     text-align: center;
     background-color: #9EAF7C;
 }
-.about-catalog_text{
-font-family: "Philosopher";
-font-size: 2rem;
-font-style: normal;
-font-weight: 700;
-line-height: 70%;
+
+.about-catalog_text {
+    font-family: "Philosopher";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70%;
 }
-.order_title{
+
+.order_title {
     color: var(--third-color);
     font-family: "Inter";
     font-weight: 300;
 }
-.order_text{
+
+.order_text {
     color: var(--third-color);
     font-family: "Inter";
 }
-.button_order{
+
+.button_order {}
+
+.instruction_list {
+    border-radius: 2rem;
+    background-color: var(--fourth-color);
 }
-.review_title{
+
+.review_title {
     font-family: "Philosopher";
-    font-size:3rem;
+    font-size: 3rem;
     font-style: italic;
     font-weight: 400;
 }
-.review_img{
-}
-.review_text{
+
+.review_img {}
+
+.review_text {
     font-family: "Inter";
     font-size: 2rem;
     font-weight: 400;
     line-height: normal;
 }
-.review > a{
-    display: block;
-    text-align: center;
-    background-color: #9EAF7C;
-}
-.clients_title{
+.clients_title {
     font-family: "Philosopher";
-font-size: 5rem;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
+    font-size: 6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
-.clients_icon{}
-.contacts_title{
-    font-family: "Philosopher";
-font-size: 3rem;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
-}
-.contacts_icon{
 
+.clients_icon {}
+
+.contacts_title {
+    font-family: "Philosopher";
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
-.footer{
+
+.contacts_icon {}
+
+.footer {
     background-color: #9EAF7C;
 }
-.footer > p{
+
+.footer>p {
     font-family: "Philosopher";
-font-size: 2rem;
-font-style: normal;
-font-weight: 400;
-line-height: 179.182%;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 179.182%;
 }
