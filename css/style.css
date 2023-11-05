@@ -32,7 +32,7 @@ html {
     background-color: var(--fourth-color);
 }
 
-.start-page {
+.start-page, .header {
     background-image: url("/img/background1.png");
 }
 .order{
@@ -81,8 +81,16 @@ html {
     border-radius: 4rem;
 }
 
+.about-company_subtitle{
+    color: var(--second-color);
+text-align: center;
+font-family: "Philosopher";
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 .about-company>ul>li {
-    text-align: center;
     font-size: 2rem;
     line-height: 4rem;
 }
@@ -121,6 +129,13 @@ html {
     display: block;
     text-align: center;
     background-color: #9EAF7C;
+}
+.about-catalog_text{
+font-family: "Philosopher";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 70%;
 }
 .order_title{
     color: var(--third-color);
