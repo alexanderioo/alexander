@@ -3,7 +3,7 @@
 :root {
     --first-color: #212121;
     --second-color: #9EAF7C;
-    --third-color: #EAF3FD;
+    --third-color: #fff;
     --fourth-color: #F3F1EC;
     --fifth-color: #C3BEBE;
 }
@@ -36,9 +36,11 @@ max-width: 390px;
     background-color: var(--fourth-color);
 }
 
-.start-page,
+.start-page{
+    background-image:url(../img/background1.png);
+}
 .header {
-    background-image:url(../img/background1.png)
+    background-image:url(../img/background1.png);
 }
 .header_button{
     background: none;
@@ -50,14 +52,16 @@ max-width: 390px;
 }
 
 .start-page_text {
+    font-family: "Inter";
     color: var(--third-color);
     font-size: 3rem;
     line-height: 4rem;
     text-align: center;
-    font-weight: 0rem;
+    font-weight: 400;
 }
 
-.link { 
+.link , .order_button { 
+    display: block;
     font-family: "Inter";
    background-color: #9EAF7C;
    padding: 24px 75px;
@@ -65,9 +69,11 @@ max-width: 390px;
    text-decoration: none;
    color:var(--third-color);
    font-size: 1.5rem;
+   width: 300px;
 }
 
 .start-page_desc {
+    color:var(--third-color);
     font-family: "Inter";
 font-weight: 300;
     font-size: 2rem;
@@ -79,7 +85,6 @@ font-weight: 300;
     border: 2rem;
     border-radius: 2rem;
 }
-
 .about-company_title {
 
     font-size: 4rem;
@@ -102,19 +107,6 @@ font-weight: 300;
     font-weight: 700;
     line-height: normal;
 }
-
-.about-company>ul>li {
-    text-align: center;
-    font-size: 3rem;
-    line-height: 4rem;
-}
-
-.about-company>a {
-    display: block;
-    text-align: center;
-    background-color: #9EAF7C;
-}
-
 .about-article_title {
     font-family: "Philosopher";
     font-size: 4rem;
@@ -147,13 +139,6 @@ font-weight: 300;
 .about-catalog__icon {
     border-radius: 2rem;
 }
-
-.about-catalog>a {
-    display: block;
-    text-align: center;
-    background-color: #9EAF7C;
-}
-
 .about-catalog_text {
     font-family: "Philosopher";
     font-size: 2rem;
@@ -172,12 +157,18 @@ font-weight: 300;
     color: var(--third-color);
     font-family: "Inter";
 }
-
-.button_order {}
+.order_link{
+    text-decoration: none;
+    color: var(--second-color);
+}
+.order_text_little{
+    color:var(--third-color);
+}
 
 .instruction_list {
-    border-radius: 2rem;
-    background-color: var(--fourth-color);
+    border-radius: 20px;
+    background-color: var(--third-color);
+    width: 301px;
 }
 
 .review_title {
@@ -203,7 +194,20 @@ font-weight: 300;
     line-height: normal;
 }
 
-.clients_icon {}
+.clients_container{
+    font-family: "Philosopher";
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: var(--third-color);
+    width: 140px;
+}
+.review_container{
+    font-family: "Philosopher";
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: var(--third-color);
+    width: 300px;
+}
 
 .contacts_title {
     font-family: "Philosopher";
@@ -219,10 +223,12 @@ font-weight: 300;
     background-color: #9EAF7C;
 }
 
-.footer>p {
+.footer_text {
     font-family: "Philosopher";
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 179.182%;
+    text-decoration: none;
+    color:var(--third-color);
 }
