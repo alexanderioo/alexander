@@ -1,5 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v13-cyrillic-300.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-cyrillic-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v13-cyrillic-600.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/philosopher-v19-cyrillic-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Philosopher';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/philosopher-v19-cyrillic-italic.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/philosopher-v19-cyrillic-700.woff2') format('woff2');
+}
+
 .order_input_big:hover,.order_input:hover{
     border: 4px solid #9EAF7C;
     transform: scale(1.2);
@@ -71,12 +113,11 @@ main{
     border: none;
 }
 .start-page_text {
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     color: var(--third-color);
     font-size: 3.4rem;
     line-height: 40px;
     text-align: center;
-    font-weight: 400;
 }
 .start-page_list{
     display: flex;
@@ -85,7 +126,7 @@ main{
 .link
 {
     display: block;
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     background-color: #9EAF7C;
     margin: 20px 45px;
     padding: 24px 75px;
@@ -97,7 +138,7 @@ main{
     border: none;
 }
 .order_button {
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     background-color: #9EAF7C;
     margin: 20px 0px;
     padding: 24px 75px;
@@ -115,8 +156,7 @@ main{
 }
 .start-page_desc {
     color: var(--third-color);
-    font-family: "Inter";
-    font-weight: 400;
+    font-family: "Inter-Regular";
     font-size: 1.8rem;
     line-height: 40px;
     padding:20px;
@@ -134,8 +174,7 @@ main{
 .about-company_title {
     font-size: 4rem;
     line-height: 50px;
-    font-weight: 700;
-    font-family: 'Philosopher';
+    font-family: 'Philosopher-Bold';
     font-style: italic;
     margin:10px;
 }
@@ -146,9 +185,8 @@ main{
 }
 .about-company_subtitle {
     color: var(--second-color);
-    font-family: "Philosopher";
+    font-family: "Philosopher-Bold";
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
 }
 .big{
@@ -223,7 +261,7 @@ grid-row: 1;
     grid-row:2;
 }
 .about-catalog__title {
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 3rem;
     margin: 39px 43px;
 }
@@ -235,7 +273,7 @@ grid-row: 1;
 
 .about-catalog_text {
     display: grid;
-    font-family: "Philosopher";
+    font-family: "Philosopher-Bold";
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -252,7 +290,7 @@ grid-row: 1;
 }
 .order_title {
     color: var(--third-color);
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     font-weight: 400;
     font-size: 3.2rem;
     letter-spacing: -1.92px;
@@ -262,21 +300,21 @@ grid-row: 1;
 
 .order_text {
     color: var(--third-color);
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     font-size: 2.4rem;
     letter-spacing: -1.44px;
     margin-bottom: 8px;
     max-width: 309px;
 }
 .order_text_small{
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     color: var(--third-color);
     margin-bottom: 50px;
     font-size:3.2rem ;
     max-width: 309px;
 }
 .order_input{
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     width: 300px;
     font-size: 1.4rem;
     margin-bottom:20px;
@@ -287,7 +325,7 @@ grid-row: 1;
 .order_input_big{
     font-size: 1.4rem;
     width: 300px;
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     margin-bottom: 15px;
     border-radius: 60px;
     border: none;
@@ -305,7 +343,7 @@ grid-row: 1;
     max-width: 301px;
 }
 .instruction_title{
-font-family: "Philosopher";
+font-family: "Philosopher-Regular";
 font-size: 2.3rem;
 font-style: italic;
 font-weight: 400;
@@ -318,7 +356,7 @@ margin-bottom: 35px;
    justify-content: flex-start;
 }
 .instruction_subtitle{
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 1.8rem;
 line-height: normal;
 margin-left: 24px;
@@ -340,12 +378,12 @@ margin-bottom: 17px;
 .instruction_text{
     margin-left: 28px;
     padding-bottom: 78px;
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     font-size: 1.8rem;
     width: 259px;
 }
 .review_title {
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 3.8rem;
     font-style: italic;
     font-weight: 400;
@@ -371,21 +409,21 @@ margin-bottom: 22px;
 }
 .review_subtitle{
 width: 110px;
-font-family: "Philosopher";
+font-family: "Philosopher-Bold";
 font-size: 2.8rem;
 font-weight: 700;
 line-height: 100%; 
 }
 
 .review_text {
-    font-family: "Inter";
+    font-family: "Inter-Regular";
     font-size: 1.4rem;
     font-weight: 400;
     line-height: normal;
 }
 
 .clients_title {
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 5.5rem;
     font-style: italic;
     font-weight: 400;
@@ -399,7 +437,7 @@ line-height: 100%;
     gap:5px;
  }
 .clients_text{
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 2rem;
 }
 .clients_item{
@@ -413,7 +451,7 @@ line-height: 100%;
 }
 
 .review_container {
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 2rem;
     border-radius: 20px;
     background-color: var(--third-color);
@@ -422,7 +460,7 @@ line-height: 100%;
 }
 
 .contacts_title {
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 3.8rem;
     font-style: italic;
     font-weight: 400;
@@ -443,7 +481,7 @@ line-height: 100%;
 
 
 .footer_text {
-    font-family: "Philosopher";
+    font-family: "Philosopher-Regular";
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
@@ -475,9 +513,6 @@ line-height: 100%;
     display: none;
 }
 .instuction{
-    display: none;
-}
-.headerflex{
     display: none;
 }
 .start-page_grid{
