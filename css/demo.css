@@ -26,12 +26,60 @@ main{
     width: 722px;
 }
 
-.center {
+.map-center {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.map-front, .map-back{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+}
+.map-front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.map-back {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: #fff;
+}
+.back-content {
+    width: 100%;
+    text-align: center;
+    color: #333333;
+}
+.map:hover>.front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.map:hover>.back {
+    transform: perspective(600px) rotateY(0deg);
+}
+.cloud1,
+.cloud2,
+.cloud3{
+    height: 400px;
+}
+.mar{
+    display: flex;
+    animation: marAnimation 10s linear infinite;
+}
+@keyframes marqueeAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 
 
 
