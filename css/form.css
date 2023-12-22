@@ -1,3 +1,18 @@
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9EAF7C;
+}
+.header_logo{
+    margin:22px
+  }
+.header_button {
+    background: none;
+    border: none;
+}
+main{
+    background: whitesmoke;
+}
 .logo{
     transform: rotate(30deg);
     transform: scale(2);
@@ -10,7 +25,9 @@ dd::before {
     content: "🛈";
 
 }
-
+.form-container{
+    color: #179b17;
+}
 
 .checkmark::before {
     content: "";
@@ -23,22 +40,22 @@ dd::before {
 }
 .Pseudo-classes__label:hover .Pseudo-classes__input + .checkmark::before {
     background-color: #93a893;
-    box-shadow: 0 0 5px 1px #179b17
+    box-shadow: 0 0 5px 1px greenyellow
 }
 .Pseudo-elements__label:hover .Pseudo-elements__input + .checkmark::before {
     background-color: #93a893;
-    box-shadow: 0 0 5px 1px #179b17
+    box-shadow: 0 0 5px 1px greenyellow
 }
 .Pseudo-classes__input:checked + .checkmark::before {
-    background-color: #88c090;
+    background-color: green
 }
 .Pseudo-elements__input:checked + .checkmark::before {
-    background-color: #88c090;
+    background-color: green
 }
 .Pseudo-classes__input:checked + .checkmark:after {
     display: block;
-    left: 9px;
-    top: 5px;
+    left: 10px;
+    top: 8px;
     width: 5px;
     height: 10px;
     border: solid white;
@@ -103,4 +120,47 @@ dd::before {
     display: block;
     position: relative;
     cursor: pointer;
+}
+.contacts_icon{
+    width: 80%;
+
+}
+
+.footer{
+    background-color: #9EAF7C;
+}
+.footer_text {
+    display: flex;
+    justify-content: center;
+    font-family: "Philosopher-Regular";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 179.182%;
+    text-decoration: none;
+    color: white;
+}
+.form {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #9EAF7C;
+    border: 1px solid black;}
+.button1{
+    margin-right: 635px;
+    background-color: #9EAF7C;
+}
+.button2{
+    margin-right: 150px;
+    background-color: #9EAF7C
+}
+.input{
+    width: 200px;
+    border: 1px solid bisque;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -9,79 +9,82 @@
 <body>
     
     <header class="header wrapper">
-        <img class="header_logo" src="img/Logo.svg" alt="Logo">
-        <button class="header_button"><img src="img/3.svg" alt="button"></button>
-    </header>
+        <div class = "headerflex">
+            <img class="header_logo" src="img/Logo.svg" alt="Logo">
+                <button class="header_button"><img src="img/3.svg" alt="button"></button>
+        </header>
     <main>
-        <form method="post" action="//httpbin.org/post">
-        <fieldset>
+        <form class="post" method="post" action="//httpbin.org/post">
+        <fieldset class="form">
             <legend >Личная информация</legend>
         <label for="name">
             Введите ваше имя*
         </label>
-        <input required id="name" type="text" name="name" placeholder="Имя">
+        <input class="input" required id="name" type="text" name="name" placeholder="Имя">
         <label for="birthday">
             Дата рождения*
         </label>
-            <input required id="birthday" type="date" placeholder="Дата рождения">
+            <input class="input" required id="birthday" type="date" placeholder="Дата рождения">
             <div class="form-radio">
         <label for="male">
             Мужской
         </label>
-            <input checked id="gender" type="radio" value="Мужской">
+            <input class="input" checked id="gender" type="radio" value="Мужской">
             </div>
             <div class="form-radio">
             <label for="female">
             Женский
             </label>
-            <input id="gender" type="radio" value="Женский">
+            <input class="input" id="gender" type="radio" value="Женский">
             </div>
         </fieldset>
-        <fieldset><legend>Контактные данные</legend>
+        <fieldset class="form"><legend>Контактные данные</legend>
             <label for="password">
                 Ваш пароль*
                 <label>
-                <input required id="password" type="password" placeholder="Пароль">
+                <input class="input" required id="password" type="password" placeholder="Пароль">
             <label for ="email">
                 Ваша почта
             </label>
-                <input required id="email" type="email" placeholder="Почта">
+                <input class="input" required id="email" type="email" placeholder="Почта">
             <label for="phone">
                 Ваш телефон
             </label>
-                <input id="phone" type="tel" placeholder="Телефон"> 
+                <input class="input" id="phone" type="tel" placeholder="Телефон"> 
                 <div class="form-radio">
             <label for="time">
                 Удобный интервал времени
             </label>
                 </div>
                 <div class="form-radio">
-             <label for="time1">
+             <label  for="time1">
                 Утро
              </label>
-                <input id="time1" type="radio" value="Утро">
+                <inputclass="input" id="time1" type="radio" value="Утро">
                 </div>
                 <div class="form-radio">
                 <label for="time2">
                 День
                 </label>
-                <input id="time2" type="radio" value="День">
+                <input class="input" id="time2" type="radio" value="День">
                 </div>
                 <div class="form-radio">
                 <label for="time3">
                 Вечер
             </label>
-                <input id="time3" type="radio" value="Вечер">
+                <input class="input" id="time3" type="radio" value="Вечер">
                 </div>
                 <div class="form-radio">
                 <label for="time4">
                 Ночь
                 </label>
-                <input id="time4" type="radio" value="Ночь">
+                <input class="input" id="time4" type="radio" value="Ночь">
                 </div>
         </fieldset>
-        <button type="submit">Регистрация</button>
-        <button type="reset">Сброс данных</button>
+        <div class="button_flex">
+        <button class="button1" type="submit">Регистрация</button>
+        <button class="button2" type="reset">Сброс данных</button>
+    </div>
         </form>
         <dl>
             <dt>dl</dt>
@@ -172,6 +175,11 @@
                 </form>
             </div>
         </section>
+        <section class="contacts wrapper">
+            <h2 class="contacts_title">Контакты</h2>
+            <img class="logo" src="img/mers.png">
+            <img class="contacts_icon" src="img/map.png" alt="Map">
+        </section>
     </main>
     <footer class="footer wrapper">
         <p class="footer_text"> Адрес - Москва, Степана Разина 119</p>
@@ -185,7 +193,6 @@
         <p class="footer_text"> БИК lRTYKZKA в AO ForbeBank</p>
         <a class="footer_text" href="tel:7 778 775 77 68">мобильный/ватсап + 7 778 775 77 68</a>
         <a class="footer_text" href="mailto:info@fintax.kz">info@fintax.kz</a>
-        <img class="logo" src="img/footerlogo.jpg">
     </footer>
 </body>
 </html>

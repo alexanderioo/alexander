@@ -1,0 +1,38 @@
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9EAF7C;
+}
+.header_logo{
+    margin:22px
+  }
+.header_button {
+    background: none;
+    border: none;
+}
+main{
+    background: whitesmoke;
+}
+.map{
+    margin-top: 400px;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+}
+
+.map-img {
+    object-fit: cover;
+    object-position: -310px 0px;
+    width: 722px;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
