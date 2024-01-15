@@ -89,7 +89,7 @@ border: 3px solid green;
 :root {
     --first-color: #212121;
     --second-color: #6c7754;
-    --third-color: #fff;
+    --third-color:  #FFFFFF;
     --fourth-color: #F3F1EC;
     --fifth-color: #C3BEBE;
 }
@@ -132,12 +132,16 @@ body {
     position: absolute;
     top: -1px;
     left: 20%;
-    padding: 19px 68px;
-    color: #b3a4a4;
-    background: #aee23d;
-    transform: translateY(-96%);
+    padding: 9px 118px;
+    color: #ffffff;
+    background: #208002;
+    transform: translateY(-100%);
     text-decoration: none;
-    font-size: 2rem;}
+    font-size: 2rem;
+}
+.skip-link:focus {
+    transform: translateY(20%);
+}
 @media(min-width:390px) {
     .start-page {
         background-image: url(../img/background1.png);
@@ -809,7 +813,7 @@ body {
 
     .about-company_text {
         font-family: "Inter";
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1254,7 +1258,7 @@ body {
         bottom: 282px;
         right: 300px;
         font-family: "Inter-Regular";
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         margin: 20px 45px;
         padding: 28px 209px;
         border-radius: 10px;
@@ -1414,7 +1418,7 @@ body {
 
     .about-company_text {
         font-family: "Inter";
-        font-size: 2.4rem;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1772,12 +1776,12 @@ body {
     .mediatext1 {
         display: flex;
         flex-direction: row;
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     .mediatext {
         display: flex;
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .media_a {
@@ -1909,7 +1913,7 @@ gap: 10px;
         border-radius: 10px;
         text-decoration: none;
         color: var(--third-color);
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         width: 560px;
         border: none;
     }
