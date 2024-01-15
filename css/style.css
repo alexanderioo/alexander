@@ -48,7 +48,7 @@
 
 .order_input_big:hover,
 .order_input:hover {
-    border: 4px solid #9EAF7C;
+    border: 4px solid #6c7754;
     transform: scale(1.2);
     color: white;
     transform: rotate(45deg);
@@ -82,13 +82,13 @@ border: 3px solid green;
     box-shadow: 8px 10px 5px 2px rgba(157, 245, 117, 0.308);
 }
 ::selection {
-    color: #9EAF7C;
+    color: #6c7754;
     background-color: #212121;
 }
 
 :root {
     --first-color: #212121;
-    --second-color: #9EAF7C;
+    --second-color: #6c7754;
     --third-color: #fff;
     --fourth-color: #F3F1EC;
     --fifth-color: #C3BEBE;
@@ -132,10 +132,10 @@ body {
     position: absolute;
     top: -1px;
     left: 20%;
-    padding: 9px 68px;
+    padding: 19px 68px;
     color: #b3a4a4;
     background: #aee23d;
-    transform: translateY(-100%);
+    transform: translateY(-96%);
     text-decoration: none;
     font-size: 2rem;}
 @media(min-width:390px) {
@@ -177,20 +177,20 @@ body {
     .link {
         display: block;
         font-family: "Inter-Regular";
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         margin: 20px 45px;
         padding: 24px 75px;
         border-radius: 10px;
         text-decoration: none;
         color: var(--third-color);
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         width: 300px;
         border: none;
     }
 
     .order_button {
         font-family: "Inter-Regular";
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         margin: 20px 0px;
         padding: 24px 75px;
         border-radius: 10px;
@@ -217,7 +217,7 @@ body {
     }
 
     .start-page_icon {
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         border-radius: 50%;
         padding: 13px;
         width: 60px;
@@ -263,7 +263,7 @@ body {
 
     .about-company_text {
         font-family: "Inter";
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -596,7 +596,7 @@ body {
     }
 
     .footer {
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         max-width: 390px;
         padding: 34px 47px 73px 51px;
     }
@@ -671,6 +671,11 @@ body {
         width: 298px;
         height: 254px;
     }
+    .grid,.form,.demo{
+        font-size: 1.8rem;
+      text-decoration: none;
+      color: white;
+    }
 }
 
 @media(min-width:1024px) {
@@ -715,7 +720,7 @@ body {
     .link {
         display: block;
         font-family: "Inter";
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         margin: 0 auto;
         padding: 24px 75px;
         border-radius: 10px;
@@ -728,7 +733,7 @@ body {
 
     .order_button {
         font-family: "Inter";
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         margin: 20px 0px;
         padding: 24px 75px;
         border-radius: 10px;
@@ -756,7 +761,7 @@ body {
     }
 
     .start-page_icon {
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         border-radius: 50%;
         padding: 13px;
         width: 60px;
@@ -804,7 +809,7 @@ body {
 
     .about-company_text {
         font-family: "Inter";
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1143,7 +1148,7 @@ body {
     }
 
     .footer {
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         max-width: 390px;
         padding: 34px 47px 73px 51px;
     }
@@ -1153,7 +1158,7 @@ body {
         display: flex;
         justify-content: center;
         font-family: "Philosopher";
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         font-style: normal;
         font-weight: 400;
         line-height: 179.182%;
@@ -1276,6 +1281,7 @@ body {
 
     }
 
+
 }
 
 @media(min-width:1440px) {
@@ -1319,7 +1325,7 @@ body {
     .link {
         display: block;
         font-family: "Inter";
-        background-color: #9EAF7C;
+        background-color:#6c7754;
         margin: 0 auto;
         padding: 24px 75px;
         border-radius: 10px;
@@ -1332,7 +1338,7 @@ body {
 
     .order_button {
         font-family: "Inter";
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         margin: 20px 0px;
         padding: 24px 75px;
         border-radius: 10px;
@@ -1360,7 +1366,7 @@ body {
     }
 
     .start-page_icon {
-        background-color: #9EAF7C;
+        background-color: #6c7754;
         border-radius: 50%;
         padding: 13px;
         width: 60px;
@@ -1408,7 +1414,7 @@ body {
 
     .about-company_text {
         font-family: "Inter";
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -1852,7 +1858,7 @@ gap: 10px;
     }
 
     .footer_container {
-        background-color: #9EAF7C;
+        background-color:#6c7754;
         position: relative;
         bottom: 680px;
         max-width: 573px;
@@ -1897,7 +1903,7 @@ gap: 10px;
         bottom: 349px;
         right: 300px;
         font-family: "Inter-Regular";
-        background-color: #9EAF7C;
+        background-color:#6c7754;
         margin: 20px 45px;
         padding: 28px 209px;
         border-radius: 10px;
@@ -1926,5 +1932,5 @@ gap: 10px;
         font-size: 3rem;
         line-height: 40px;
         padding: 20px;
-
+    }
 }
