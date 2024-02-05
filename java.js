@@ -40,19 +40,22 @@ for (let i = 0; i <= m; i++) {
     }
 }
 
-function func(layer){
-    let tree = ">";
+
+
+
+
+
+
+function funcc(layer) {
+    let tree = "";
+for (let i = 1; i <= layer; i++) {
+    let symbol = "";
 }
-for (let i=1; i<=layer;i++){
-
-let symbol = "";
-
-let count = (i===1 || i === layer) ? i : i-1;
-
-symbol += (i % 2 === 0) ? "#" : "*"
-
-
 }
+
+
+
+
 
 
 
