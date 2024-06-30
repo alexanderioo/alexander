@@ -260,7 +260,6 @@ p{
   display: block; 
   width: 100%;
   border: 1px solid black;
-  margin: 20px;
 }
 }
 @media(min-width:1440px){
@@ -323,6 +322,10 @@ a{
   font-size: 1.8rem;
 }
 .index_img{
+  max-width: 650px;
+}
+.tablink {
+  font-size: 1.2rem;
   max-width: 650px;
 }
   }
