@@ -106,7 +106,7 @@ h3,h2{
 .tabcontent{
     margin-top: 15px;
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid #143b97;
     border-radius: 15px;
 }
 a{
@@ -140,7 +140,7 @@ border: 1px solid black
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 390px) {
+@media (min-width: 390px),(max-width: 390px){
 .index_link{
 color: #143b97;
 }
@@ -374,5 +374,14 @@ a{
   }
   .gallery_img{
     width: 100%;
+  }
+  .index_img{
+    max-width: 100%;
+  }
+  .index_link{
+    font-size: 3.5rem;
+  }
+  .start_title{
+    font-size: 4rem;
   }
 }
