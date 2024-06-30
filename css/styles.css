@@ -237,13 +237,13 @@ a{
 }
 .gallery_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
   gap: 10px;
   margin: 20px;
 }
 
 .gallery_img {
-  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
   border-radius: 10px;
   border: 1px solid black;
 }
