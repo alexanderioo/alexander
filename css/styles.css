@@ -245,7 +245,7 @@ a{
   object-fit: cover;
   max-width: 100%;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #1443b1;;
 }
 .tabcontent{
   
@@ -259,7 +259,7 @@ p{
 .gallery_img1{
   display: block; 
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #1443b1;
 }
 }
 @media(min-width:1024px){
@@ -364,13 +364,13 @@ p{
   margin: 0 auto;
   width: 650px;
   height: 100%;
-  border: 1px solid black;
+  border: 1px solid #143b97;
 }
 .gallery_img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #143b97;
 }
 a{
   font-size: 1.8rem;
