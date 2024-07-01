@@ -228,7 +228,7 @@ color: #143b97;
     padding: 10px 15px;
     margin-right: 3px;
     cursor: pointer;
-    max-width: 100%;
+    width: 100%;
     font-family: 'Roboto Slab', serif;
     font-size: 1.1rem;
 }
@@ -380,7 +380,7 @@ a{
 }
 .tablink {
   font-size: 1.2rem;
-  max-width: 650px;
+  max-width: 100%
 }
 
   }
