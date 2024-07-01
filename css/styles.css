@@ -316,7 +316,7 @@ p{
     font-size: 4rem;
   }
 }
-@media(min-width:1440px){
+@media(min-width:1440px) {
   h2{
     font-size: 2.1rem;
   }
