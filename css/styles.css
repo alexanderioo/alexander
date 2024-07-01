@@ -8,7 +8,23 @@ body{
     background-color: #f5f7fa;
     font-size: 1.5rem;
 }
-
+.background_index{
+  background-image: url(https://i.pinimg.com/736x/9e/09/de/9e09de80cd4cad9493d95fb8b4476df5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+}
+.background_index p{
+  color: white;
+}
+.background_index a{
+  color: white;
+}
+.background_index h1{
+  color: white;
+}
 .skip-link {
     display: block;
     position: absolute;
@@ -315,6 +331,9 @@ p{
   .start_title{
     font-size: 4rem;
   }
+.background_index{
+  margin:120px
+}
 }
 @media(min-width:1440px) {
   h2{
